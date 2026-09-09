@@ -1,6 +1,6 @@
 {
     "name": "@lockness/storage",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "license": "MIT",
     "exports": "./mod.ts",
     "tasks": {
@@ -10,6 +10,12 @@
     "publish": {
         "include": [
             "mod.ts",
+            "storage.ts",
+            "helpers.ts",
+            "types.ts",
+            "drivers/local.ts",
+            "drivers/s3.ts",
+            "drivers/r2.ts",
             "deno.json",
             "README.md"
         ],
